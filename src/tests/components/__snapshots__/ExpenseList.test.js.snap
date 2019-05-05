@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should grender p tag instead of expenses list 1`] = `
+<div>
+  <p>
+    No expenses
+  </p>
+</div>
+`;
+
+exports[`should render ExpenseList 1`] = `
+<div>
+  <ExpenseListItem
+    amount={195}
+    createdAt={0}
+    description="gum"
+    id="1"
+    key="1"
+    note="mint flavour and stuff"
+  />
+  <ExpenseListItem
+    amount={230000}
+    createdAt={-432000000}
+    description="rent"
+    id="2"
+    key="2"
+    note=""
+  />
+  <ExpenseListItem
+    amount={0}
+    createdAt={432000000}
+    description="gas"
+    id="3"
+    key="3"
+    note="I dont't even have a car, lul"
+  />
+</div>
+`;
